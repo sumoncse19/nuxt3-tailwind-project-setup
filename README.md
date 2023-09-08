@@ -1,7 +1,8 @@
-1. npx nuxi@latest init <project-name>
-2. yarn add pinia @pinia/nuxt --> add @pinia/nuxt in nuxt.config under modules:['@pinia/nuxt']
-3. yarn add --dev @nuxtjs/tailwindcss --> add @nuxtjs/tailwindcss in nuxt.config under modules:['@nuxtjs/tailwindcss']
-4. npx tailwindcss init --> rename tailwind.config.js to tailwind.config.ts
+1. npx nuxi@latest init `project-name`
+2. cd `project-name`
+3. yarn add pinia @pinia/nuxt --> add @pinia/nuxt in nuxt.config under modules:['@pinia/nuxt']
+4. yarn add --dev @nuxtjs/tailwindcss --> add @nuxtjs/tailwindcss in nuxt.config under modules:['@nuxtjs/tailwindcss']
+5. npx tailwindcss init --> rename tailwind.config.js to tailwind.config.ts
 
    a. config tailwind.config.ts like this:
 
@@ -54,7 +55,7 @@
    css: ['~/assets/css/main.css'],
    ```
 
-5. For toaster: `yarn add vue-toastification@2.0.0-rc.5`
+6. For toaster: `yarn add vue-toastification@2.0.0-rc.5`
    a. Create this folder `plugins/vue-toastification.client.ts` and this line:
 
    ```
@@ -118,7 +119,7 @@
     });
    ```
 
-6. From v7.2.0, we shipped a Nuxt module to enable auto importing for Nuxt 3 and Nuxt Bridge.: `yarn add -D @vueuse/nuxt @vueuse/core`
+7. From v7.2.0, we shipped a Nuxt module to enable auto importing for Nuxt 3 and Nuxt Bridge.: `yarn add -D @vueuse/nuxt @vueuse/core`
    a. Add this link in nuxt.config under modules: `'@vueuse/nuxt'`
    b. Now your can use this package like this:
 
@@ -146,7 +147,7 @@
     const isTab = breakpoints.greaterOrEqual("md");
    ```
 
-7. For validation you can use this packages: `yarn add @vuelidate/core @vuelidate/validators`
+8. For validation you can use this packages: `yarn add @vuelidate/core @vuelidate/validators`
    a. Here i add a demo:
 
    ```
@@ -178,7 +179,7 @@
     `
    ```
 
-8. For using sass: `yarn add -D sass`
+9. For using sass: `yarn add -D sass`
    a. In self page or component: <style lang="scss" scoped></style>
    b. In css file -> just create a file like this: `assets/scss/default.scss` and import it into default.vue like this:
    ```
