@@ -1,8 +1,8 @@
 1. npx nuxi@latest init `project-name`
 2. cd `project-name`
-3. yarn add pinia @pinia/nuxt --> add @pinia/nuxt in nuxt.config under modules:['@pinia/nuxt']
-4. yarn add --dev @nuxtjs/tailwindcss --> add @nuxtjs/tailwindcss in nuxt.config under modules:['@nuxtjs/tailwindcss']
-5. npx tailwindcss init --> rename tailwind.config.js to tailwind.config.ts
+3. run `yarn add pinia @pinia/nuxt` --> add @pinia/nuxt in nuxt.config under modules:['@pinia/nuxt']
+4. run `yarn add --dev @nuxtjs/tailwindcss` --> add @nuxtjs/tailwindcss in nuxt.config under modules:['@nuxtjs/tailwindcss']
+5. run `npx tailwindcss init` --> rename tailwind.config.js to tailwind.config.ts
 
    a. config tailwind.config.ts like this:
 
