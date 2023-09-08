@@ -124,7 +124,7 @@
     });
    ```
 
-7. From v7.2.0, we shipped a Nuxt module to enable auto importing for Nuxt 3 and Nuxt Bridge.: `yarn add -D @vueuse/nuxt @vueuse/core`
+8. From v7.2.0, we shipped a Nuxt module to enable auto importing for Nuxt 3 and Nuxt Bridge.: `yarn add -D @vueuse/nuxt @vueuse/core`
    a. Add this link in nuxt.config under modules: `'@vueuse/nuxt'`
    b. Now your can use this package like this:
 
@@ -152,7 +152,7 @@
     const isTab = breakpoints.greaterOrEqual("md");
    ```
 
-8. For validation you can use this packages: `yarn add @vuelidate/core @vuelidate/validators`
+9. For validation you can use this packages: `yarn add @vuelidate/core @vuelidate/validators`
    a. Here i add a demo:
 
    ```
@@ -184,80 +184,11 @@
     `
    ```
 
-9. For using sass: `yarn add -D sass`
+10. For using sass: `yarn add -D sass`
    a. In self page or component: <style lang="scss" scoped></style>
    b. In css file -> just create a file like this: `assets/scss/default.scss` and import it into default.vue like this:
-
-```
-  <style>
-    @import "~/assets/scss/default.scss";
-  </style>
-```
-
-# Nuxt 3 Starter - with this repository
-
-`git clone https://github.com/sumoncse19/nuxt3_tailwind_pinia_project_setup.git`
-
-## Go to path
-
-`cd nuxt3_tailwind_pinia_project_setup`
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+   ```
+     <style>
+       @import "~/assets/scss/default.scss";
+     </style>
+   ```
