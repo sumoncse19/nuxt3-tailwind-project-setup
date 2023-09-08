@@ -1,6 +1,6 @@
 # Project setup with Nuxt3_tailwind_pinia_and_other_package
 
-## [Start your project with this setup](https://github.com/sumoncse19/nuxt3_tailwind_pinia_project_setup/blob/main/README.md#nuxt-3-starter---with-this-repository)
+## [Start your project with this setup](https://github.com/sumoncse19/nuxt3_tailwind_pinia_project_setup#nuxt-3-starter---with-this-repository)
 ## Run this command
 
 1. npx nuxi@latest init `project-name`
