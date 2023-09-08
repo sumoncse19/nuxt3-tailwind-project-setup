@@ -1,3 +1,7 @@
+# Project setup with Nuxt3_tailwind_pinia_and_other_package
+
+## Run this command
+
 1. npx nuxi@latest init `project-name`
 2. cd `project-name`
 3. run `yarn add pinia @pinia/nuxt` --> add @pinia/nuxt in nuxt.config under modules:['@pinia/nuxt']
