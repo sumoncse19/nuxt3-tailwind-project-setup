@@ -1,5 +1,6 @@
 # Project setup with Nuxt3_tailwind_pinia_and_other_package
 
+## (Start your project with this setup)[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]
 ## Run this command
 
 1. npx nuxi@latest init `project-name`
