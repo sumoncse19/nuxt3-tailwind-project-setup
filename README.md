@@ -56,6 +56,7 @@
    ```
 
 6. For toaster: `yarn add vue-toastification@2.0.0-rc.5`
+
    a. Create this folder `plugins/vue-toastification.client.ts` and this line:
 
    ```
