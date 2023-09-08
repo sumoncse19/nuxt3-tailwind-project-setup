@@ -197,7 +197,7 @@
 
 # Nuxt 3 Starter - with this repository
 
-`git clone https://github.com/sumoncse19/nuxt3_tailwind_pinia_project_setup.git`
+```git clone https://github.com/sumoncse19/nuxt3_tailwind_pinia_project_setup.git```
 
 ## Go to path
 
